@@ -5,7 +5,7 @@
             <field name="name">Pesawat Sequence</field>
             <field name="code">tiket.pesawat</field>
             <field name="prefix">TP</field>
-            <field name="padding">5</field> 
+            <field name="padding">4</field> 
             <field name="company_id" eval="False"/>
         </record>
     </data>   

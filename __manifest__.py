@@ -11,15 +11,17 @@
         'data/data.xml',
         'views/tiket.xml',
         'views/dashboard.xml',
+        'views/template.xml',
+        'views/daftar.xml',
         'reports/report.xml',
         'reports/tiket.xml'
     ],
     'installable': True,
-    'application': False,
+    'application': True,
     'auto_install': False,
     'license': 'OEEL-1',
 
     'qweb': [
-        'static/xml*.xml',
+        'static/xml/*.xml',
     ]
 }
